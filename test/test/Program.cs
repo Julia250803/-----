@@ -6,8 +6,7 @@ namespace test
     {
         static void Main(string[] args)
         {
-            double a, b, z;
-            
+           
             
         }
     }
