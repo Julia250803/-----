@@ -10,6 +10,7 @@ namespace test
             double a, b, z;
             
 
+
             Console.WriteLine("Введите первое число");
             a = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите второе число");
@@ -25,7 +26,8 @@ namespace test
                     Console.WriteLine(a + b);
                     break;
                 case 2:
-
+                    Console.WriteLine(a - b);
+                    break;
                 case 3:
 
                 case 4:
@@ -35,12 +37,6 @@ namespace test
                     break;
 
             }
-
-
-
-
-
-
         }
     }
 }
