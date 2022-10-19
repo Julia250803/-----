@@ -13,10 +13,10 @@ namespace test
             switch (z)
             {
                 case 1:
-                  Console.WriteLine(a + b);
-                  break;
+                  
                 case 2:
-                   
+                    Console.WriteLine(a - b);
+                    break;
                 case 3:
                
                 case 4:
