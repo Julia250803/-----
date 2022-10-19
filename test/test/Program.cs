@@ -8,6 +8,7 @@ namespace test
         {
 
 
+
             double a, b, z;
             
 
@@ -33,12 +34,14 @@ namespace test
                     Console.WriteLine(a * b);
                     break;
                 case 4:
-
+                    Console.WriteLine(a / b);
+                    break;
                 default:
                     Console.WriteLine("Такого варианта нет");
                     break;
 
             }
+
 
 
 
