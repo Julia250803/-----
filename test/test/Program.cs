@@ -9,6 +9,7 @@ namespace test
 
             double a, b, z;
             
+
             Console.WriteLine("Введите первое число");
             a = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите второе число");
@@ -18,6 +19,22 @@ namespace test
             z = Convert.ToInt32(Console.ReadLine());
 
 
+            switch (z)
+            {
+                case 1:
+                    Console.WriteLine(a + b);
+                    break;
+                case 2:
+
+                case 3:
+
+                case 4:
+
+                default:
+                    Console.WriteLine("Такого варианта нет");
+                    break;
+
+            }
 
 
         }
