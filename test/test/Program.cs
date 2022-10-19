@@ -12,7 +12,6 @@ namespace test
             double a, b, z;
             
 
-
             Console.WriteLine("Введите первое число");
             a = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите второе число");
@@ -41,8 +40,6 @@ namespace test
                     break;
 
             }
-
-
 
 
 
