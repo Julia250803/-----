@@ -17,10 +17,10 @@ namespace test
                 case 2:
                     
                 case 3:
-                    Console.WriteLine(a * b);
-                    break;
+                    
                 case 4:
-                             
+                    Console.WriteLine(a / b);
+                    break;
                 default:
                     Console.WriteLine("Такого варианта нет");
                     break;
