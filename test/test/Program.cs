@@ -7,9 +7,25 @@ namespace test
         static void Main(string[] args)
         {
             double a, b, z;
+            z = 0;
+            a = 0;
+            b = 0;
+            switch (z)
+            {
+                case 1:
+                  Console.WriteLine(a + b);
+                  break;
+                case 2:
+                   
+                case 3:
+               
+                case 4:
+                             
+                default:
+                    Console.WriteLine("Такого варианта нет");
+                    break;
 
-            Console.WriteLine("Выберите число: 1. Выполнить сложение. 2. Выполнить вычитание. 3. Выполнить умножение. 4. Выполнить деление");
-            z = Convert.ToInt32(Console.ReadLine());
+            }
         }
     }
 }
