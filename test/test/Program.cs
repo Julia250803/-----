@@ -14,13 +14,11 @@ namespace test
             Console.WriteLine("Введите второе число");
             b = Convert.ToDouble(Console.ReadLine());
 
-           
+            Console.WriteLine("Выберите число: 1. Выполнить сложение. 2. Выполнить вычитание. 3. Выполнить умножение. 4. Выполнить деление");
+            z = Convert.ToInt32(Console.ReadLine());
 
 
 
-
-            
-            
 
         }
     }
