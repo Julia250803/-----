@@ -15,10 +15,10 @@ namespace test
                 case 1:
                   
                 case 2:
-                    Console.WriteLine(a - b);
-                    break;
+                    
                 case 3:
-               
+                    Console.WriteLine(a * b);
+                    break;
                 case 4:
                              
                 default:
