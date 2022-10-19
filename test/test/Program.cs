@@ -7,14 +7,9 @@ namespace test
         static void Main(string[] args)
         {
 
-
-
             double a, b, z;
             
 
-
-<<<<<<< HEAD
-=======
             Console.WriteLine("Введите первое число");
             a = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите второе число");
@@ -45,11 +40,6 @@ namespace test
             }
 
 
-
-
-
-
->>>>>>> final
         }
     }
 }
