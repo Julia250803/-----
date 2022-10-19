@@ -7,6 +7,11 @@ namespace test
         static void Main(string[] args)
         {
             
+
+
+
+
+
              Console.WriteLine(a - b);
               
         }
