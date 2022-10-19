@@ -7,6 +7,7 @@ namespace test
         static void Main(string[] args)
         {
 
+
             double a, b, z;
             
 
@@ -29,7 +30,8 @@ namespace test
                     Console.WriteLine(a - b);
                     break;
                 case 3:
-
+                    Console.WriteLine(a * b);
+                    break;
                 case 4:
 
                 default:
